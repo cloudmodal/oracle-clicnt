@@ -25,5 +25,3 @@ RUN mkdir -p /opt/oracle && \
     mv instantclient_21_15 instantclient
 
 RUN pip install --upgrade pip && pip install cx-Oracle
-
-CMD ["python3"]
